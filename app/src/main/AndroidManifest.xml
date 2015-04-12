@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Code Name: Black Hops -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rem.proxie" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.wifi.direct" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/appName"
+        android:theme="@style/Proxie" >
+        <activity
+            android:name=".activities.Start"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Login"
+            android:label="@string/loginLabel"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".preferences.AppSettings"
+            android:label="@string/appPreferencesLabel" >
+        </activity>
+        <activity
+            android:name=".activities.MessageForum"
+            android:label="@string/messageForumLabel" >
+        </activity>
+        <activity
+            android:name=".activities.ComposeMessage"
+            android:label="@string/composeMessageLabel" >
+        </activity>
+        <activity
+            android:name=".activities.MessageDialog"
+            android:label="@string/messageDialogLabel"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".preferences.MessageSettings"
+            android:label="@string/messagePreferencesLabel" >
+        </activity>
+        <activity
+            android:name=".activities.Contacts"
+            android:label="@string/contactsLabel" >
+        </activity>
+        <activity
+            android:name=".activities.Map"
+            android:label="@string/mapLabel" >
+        </activity>
+        <activity
+            android:name=".preferences.MapSettings"
+            android:label="@string/mapPreferencesLabel" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBGFx07kBhWvTx0YNBvSfQJCoYEBorrPOg" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".message_service.MessageService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MessageForum">
+    <item
+        android:id="@id/appPreferencesMenuItem"
+        android:title="@string/appPreferencesMenuTitle"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@id/contactsMenuItem"
+        android:icon="@drawable/ic_menu_friendslist"
+        android:title="@string/contactsMenuTitle"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@id/mapMenuItem"
+        android:icon="@drawable/ic_menu_mapmode"
+        android:title="@string/mapMenuTitle"
+        app:showAsAction="always" />
+</menu>

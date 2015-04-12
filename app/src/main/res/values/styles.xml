@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Proxie" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Proxie.ActionBar</item>
+    </style>
+
+    <!-- Activity themes -->
+
+
+    <!-- Widget styles -->
+
+    <style name="Proxie.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blue_500</item>
+        <item name="android:icon">@drawable/proxie_logo</item>
+        <item name="android:titleTextStyle">@style/Proxie.Titles</item>
+    </style>
+
+    <style name="Proxie.Titles" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+       <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

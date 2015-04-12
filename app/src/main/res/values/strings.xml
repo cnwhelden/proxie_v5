@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Proxie</string>
+
+    <!-- Login activity -->
+
+    <string name="loginLabel">Login</string>
+    <string name="loginUsernameHint">username</string>
+    <string name="loginPasswordHint">password</string>
+    <string name="loginSignInButtonText">Sign In</string>
+    <string name="loginStayLoggedInCheckBoxText">Stay logged in</string>
+
+    <string name="usernameKey">username</string>
+    <string name="passwordKey">password</string>
+
+    <string name="error_incorrect_username_or_password">Incorrect username or password</string>
+    <string name="error_invalid_username">This username is too short</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Message Forum activity -->
+
+    <string name="messageForumLabel">Message Forum</string>
+    <string name="messageForumFilterButtonText">Filter</string>
+    <string name="messageForumComposeButtonText">Compose</string>
+
+    <string name="appPreferencesMenuTitle">Settings</string>
+    <string name="contactsMenuTitle">Contacts</string>
+    <string name="mapMenuTitle">Message Map</string>
+
+    <!-- Compose Message activity -->
+
+    <string name="composeMessageLabel">Compose Message</string>
+    <string name="composeMessageToText">To: </string>
+    <string name="composeMessageToHint">BROADCAST</string>
+    <string name="composeMessageMessageText">Message:</string>
+    <string name="composeMessageCancelButtonText">Cancel</string>
+    <string name="composeMessageSendButtonText">Send</string>
+
+    <string name="messagePreferencesMenuTitle">Settings</string>
+
+    <!-- Message Dialog activity -->
+
+    <string name="messageDialogLabel">Message</string>
+
+    <!-- Contacts activity -->
+
+    <string name="contactsLabel">Contacts</string>
+
+    <!-- Map activity -->
+
+    <string name="mapLabel">Message Map</string>
+
+    <string name="mapPreferencesMenuTitle">Settings</string>
+
+    <!-- Preferences -->
+
+    <string name="noPrefValue">dontCare</string>
+
+    <string name="appPreferencesLabel">Application Settings</string>
+    <string name="appPreferencesStayLoggedInTitle">Stay logged in</string>
+    <string name="appPreferencesStayLoggedInKey">stayLoggedInKey</string>
+    <string name="appPreferencesRelayMessagesTitle">Relay messages</string>
+    <string name="appPreferencesRelayMessagesKey">relayMessagesKey</string>
+
+    <string name="mapPreferencesLabel">Map Settings</string>
+    <string name="mapPreferencesDisplayUsersTitle">Display users</string>
+    <string name="mapPreferencesDisplayUsersKey">displayUsersKey</string>
+    <string name="mapPreferencesDisplayMessageLocationTitle">Display message locations</string>
+    <string name="mapPreferencesDisplayMessageLocationKey">displayMessageLocationKey</string>
+
+    <string name="messagePreferencesLabel">Message Settings</string>
+    <string name="messagePreferencesIncludeSenderTitle">Include sender</string>
+    <string name="messagePreferencesIncludeSenderKey">includeSenderKey</string>
+    <string name="messagePreferencesIncludeLatLngTitle">Include location</string>
+    <string name="messagePreferencesIncludeLatLngKey">includeLocationKey</string>
+    <string name="messagePreferencesMaxNumberOfHopsTitle">Max number of hops</string>
+    <string name="messagePreferencesMaxNumberOfHopsKey">maxNumberOfHopsKey</string>
+    <string name="messagePreferencesLifeOfMessageTitle">Life of message (seconds)</string>
+    <string name="messagePreferencesLifeOfMessageKey">lifeOfMessageKey</string>
+
+</resources>

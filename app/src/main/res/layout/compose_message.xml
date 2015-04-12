@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="rem.proxie.activities.ComposeMessage" >
+
+
+    <LinearLayout
+        android:id="@id/composeMessageToLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/composeMessageToText"/>
+
+        <EditText
+            android:id="@id/composeMessageToEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="@string/composeMessageToHint"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/composeMessageMessageText"/>
+
+        <EditText
+            android:id="@id/composeMessageMessageEditText"
+            android:layout_below="@id/composeMessageToLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionSend"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/blue_500"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+        <Button
+            android:text="@string/composeMessageCancelButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cancel"/>
+        <Button
+            android:text="@string/composeMessageSendButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="send_message"/>
+    </LinearLayout>
+
+</LinearLayout>

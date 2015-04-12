@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login activity -->
+
+    <item type="id" name="loginScrollView" />
+    <item type="id" name="loginUsernameEditText" />
+    <item type="id" name="loginPasswordEditText" />
+    <item type="id" name="loginButtonBox" />
+    <item type="id" name="loginSignInButton" />
+    <item type="id" name="loginStayLoggedInCheckBox" />
+
+    <!-- Message Forum activity -->
+
+    <item type="id" name="messageForumListView" />
+    <item type="id" name="messageForumListSource" />
+    <item type="id" name="messageForumListText" />
+    <item type="id" name="messageForumButtonGroup" />
+
+    <item type="id" name="appPreferencesMenuItem" />
+    <item type="id" name="contactsMenuItem" />
+    <item type="id" name="mapMenuItem" />
+
+    <!-- Compose Message activity -->
+
+    <item type="id" name="composeMessageToLayout" />
+    <item type="id" name="composeMessageToEditText" />
+    <item type="id" name="composeMessageMessageEditText" />
+
+    <item type="id" name="messagePreferencesMenuItem" />
+
+    <!-- Message Dialog activity -->
+
+    <item type="id" name="messageDialogText" />
+    <item type="id" name="messageDialogSender" />
+    <item type="id" name="messageDialogTarget" />
+    <item type="id" name="messageDialogLocation" />
+    <item type="id" name="messageDialogNumHops" />
+    <item type="id" name="messageDialogExpirationTime" />
+    <item type="id" name="messageDialogCreatedByUser" />
+
+    <!-- Map activity -->
+
+    <item type="id" name="googleMapFragment" />
+
+    <item type="id" name="mapPreferencesMenuItem" />
+
+    <!-- User preferences layouts -->
+
+    <item type="id" name="appPreferencesStayLoggedIn" />
+    <item type="id" name="appPreferencesRelayMessages" />
+
+    <item type="id" name="mapPreferencesDisplayUsers" />
+    <item type="id" name="mapPreferencesDisplayMessageLocation" />
+
+    <item type="id" name="messagePreferencesIncludeSender" />
+    <item type="id" name="messagePreferencesIncludeLatLng" />
+    <item type="id" name="messagePreferencesMaxNumberOfHops" />
+    <item type="id" name="messagePreferencesLifeOfMessage" />
+
+</resources>

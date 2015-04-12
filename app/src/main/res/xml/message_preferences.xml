@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:id="@id/messagePreferencesIncludeSender"
+        android:key="@string/messagePreferencesIncludeSenderKey"
+        android:title="@string/messagePreferencesIncludeSenderTitle"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:id="@id/messagePreferencesIncludeLatLng"
+        android:key="@string/messagePreferencesIncludeLatLngKey"
+        android:title="@string/messagePreferencesIncludeLatLngTitle"
+        android:defaultValue="true" />
+
+    <EditTextPreference
+        android:id="@id/messagePreferencesMaxNumberOfHops"
+        android:key="@string/messagePreferencesMaxNumberOfHopsKey"
+        android:title="@string/messagePreferencesMaxNumberOfHopsTitle"
+        android:defaultValue="3" />
+
+    <EditTextPreference
+        android:id="@id/messagePreferencesLifeOfMessage"
+        android:key="@string/messagePreferencesLifeOfMessageKey"
+        android:title="@string/messagePreferencesLifeOfMessageTitle"
+        android:defaultValue="10" />
+
+</PreferenceScreen>
